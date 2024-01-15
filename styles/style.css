@@ -76,7 +76,7 @@ header {
     justify-content: space-around;
     align-items: center;
     gap: 130px;
-    
+
 }
 
 .banner-title {
@@ -186,6 +186,19 @@ header {
     font-weight: 700;
 }
 
+.first-section {
+    display: flex;
+    flex-direction: column;
+}
+
+section .see-more {
+    text-align: right;
+    color: rgba(224, 44, 109, 0.87);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
 .second-section {
     display: flex;
     justify-content: space-between;
@@ -214,7 +227,7 @@ header {
     font-family: Poppins;
     font-size: 1rem;
     font-weight: 700;
-    
+
 }
 
 .second-section-right-btn {
@@ -251,7 +264,7 @@ footer {
     font-weight: 700;
 }
 
-.copyright{
+.copyright {
     color: var(--Text-Gray-300, #D9DBE1);
     font-family: Roboto;
     font-size: .96rem;
@@ -259,7 +272,7 @@ footer {
     text-align: center;
 }
 
-.social-icons img{
+.social-icons img {
     width: 32px;
     height: 32px;
     margin-right: 16px;
@@ -321,9 +334,10 @@ footer {
         margin-top: 50px;
     }
 
-    .second-section-para{
+    .second-section-para {
         text-align: center;
     }
+
     .second-section-right-btn {
         margin-bottom: 20px;
         margin-top: 15px;
