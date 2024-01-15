@@ -186,14 +186,85 @@ header {
     font-weight: 700;
 }
 
-.second-section{
+.second-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1110px;
+    margin: 100px auto;
+}
+
+
+
+.second-section-img {
+    width: 100%;
+
+}
+
+.second-section-title {
+    color: #0A0826;
+    font-family: Poppins;
+    font-size: 2.25rem;
+    font-weight: 700;
+
+}
+
+.second-section-para {
+    color: #6C6C6C;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 700;
     
 }
 
+.second-section-right-btn {
+    font-family: Poppins;
+    margin-top: 25px;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    display: inline-flex;
+    padding: 10px 24px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 5px;
+    background: #E02C6D;
+    border: none;
+
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #0A0826;
+    height: 240px;
+    margin: 100px 0px;
+}
+
+.footer-title {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.copyright{
+    color: var(--Text-Gray-300, #D9DBE1);
+    font-family: Roboto;
+    font-size: .96rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.social-icons img{
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+    margin-top: 17px;
+}
 
 
 
@@ -235,10 +306,33 @@ header {
     }
 
     .main-content {
-     
+
         grid-template-columns: repeat(1, 1fr);
         row-gap: 50px;
-}
+    }
+
+    .second-section {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 50px auto;
+    }
+
+    .second-section-right {
+        margin-top: 50px;
+    }
+
+    .second-section-para{
+        text-align: center;
+    }
+    .second-section-right-btn {
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+
+    .second-section-img-div {
+        width: 100%;
+        margin: 30px auto;
+    }
 }
 
 
@@ -271,10 +365,29 @@ header {
 
         row-gap: 50px;
     }
+
     .main-content {
         row-gap: 50px;
         grid-template-columns: repeat(1, 1fr);
-}
+    }
+
+    .second-section {
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+        max-width: 1110px;
+        margin: 40px auto;
+    }
+
+    .second-section-right-btn {
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+
+    .second-section-img-div {
+        width: 100%;
+        margin: 30px auto;
+    }
 
 
 }
